@@ -1,13 +1,18 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "scripts": { "start": "node server.js" },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "axios": "^1.6.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.0",
-    "socket.io": "^4.7.0"
+    "axios": "^1.14.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "leaflet": "^1.9.4",
+    "mongoose": "^7.8.9",
+    "react-leaflet": "^5.0.0",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
   }
 }
